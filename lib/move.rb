@@ -11,10 +11,9 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def input_to_index(array, index, value)
-    converted_input = input_to_index(user_input)
     array[index] = value
 end
-
+converted_input = input_to_index(user_input)
 input_to_index(board, 0, "X")
 
 
